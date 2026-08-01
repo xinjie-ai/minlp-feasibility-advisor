@@ -1,6 +1,6 @@
 # MINLP Feasibility Advisor
 
-A multi-agent optimization advisor for refinery blending and throughput planning.
+A multi-agent optimization advisor for oil refinery blending and throughput planning.
 
 This project combines mathematical optimization, scenario analysis, visualization, and LLM-powered explanations to answer operational what-if questions such as:
 
@@ -10,6 +10,7 @@ This project combines mathematical optimization, scenario analysis, visualizatio
 - What operational tradeoffs should planners consider?
 
 The system uses Pyomo and SCIP to solve optimization problems and a locally hosted Qwen3 model via Ollama to generate explainable recommendations.
+
 
 ---
 
@@ -224,13 +225,19 @@ Consider a sulfur target of 0.80 wt%.
 
 ---
 
-# Future Enhancements
+# Note on Scope
 
-- Conversational memory
-- LLM-based intent routing
-- Automatic sensitivity analysis
-- Pareto frontier generation
-- Multi-period planning models
+This repository is a simplified demonstration designed to showcase the architecture and engineering patterns behind AI-assisted optimization workflows.
+
+In production environments, refinery and process-industry optimization systems typically involve:
+
+- significantly larger optimization models with advanced solvers such as Gurobi
+- real-time operational data integration
+- enterprise data pipelines
+- model governance and validation workflows
+- human-in-the-loop review processes
+- advanced LLM orchestration and monitoring with conversational memory
+
 
 ---
 
@@ -240,4 +247,4 @@ Xinjie Tong
 
 Principal Data Scientist
 
-Industrial AI | Optimization | Operations Research
+Industrial AI | Optimization | Manufacturing & Supply Chain
