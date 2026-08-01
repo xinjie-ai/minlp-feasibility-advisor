@@ -1,0 +1,17 @@
+# Optimization
+pyomo>=6.8
+
+# Data Analysis
+pandas>=2.2
+numpy>=1.26
+
+# Visualization
+matplotlib>=3.8
+networkx>=3.4
+
+# HTTP client for Ollama REST API
+requests>=2.32
+
+# Optional utilities
+tabulate>=0.9
+python-dotenv>=1.0
